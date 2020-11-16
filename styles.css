@@ -1,0 +1,369 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+p{
+    margin: 0;
+}
+.first-screen, .second-screen{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 12.5% 17.5%;
+    grid-template-rows: repeat(8, 12.5vh);
+    background-color: #D8EEE1;
+}
+h1, h2, p, .bookmark{
+    margin-left: 5%;
+}
+.color-container{
+    grid-area: 1/3/9/4;
+    border-left: white 5px solid;
+}
+.color-block{
+    height: 25vh;
+    width: 100%;
+}
+.color-descriptors{
+    grid-area: 1/2/9/3;
+}
+.color-descriptors section{
+    height: calc(25vh - 5px);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    grid-area: 2/1/4/2;
+    font-size: 7rem;
+    
+}
+h2{
+    grid-area: 4/1/5/2;
+    font-size: 4rem;
+    background-color: #F06B4D;
+}
+.small-text{
+    grid-area: 5/1/8/2;
+    font-size: 1.8rem;
+    padding-top: 8vh;
+}
+section{
+    border-bottom: 5px white solid;
+    border-left: rgba(255,255,255,0.8) solid 5px;
+    padding-left: 13px;
+    font-size: 1.1rem;
+}
+.bookmark{
+    width: 15%;
+    height: 10vh;
+}
+/*SCREENS BACKGROUNDS*/
+.second-screen{
+    background-color: #285D3D;
+}
+.third-screen{
+    background-color: #B7BBBD;
+}
+.fourth-screen{
+    background-color: #DBC1E1;
+}
+.fifth-screen{
+    background-color: #EC93A2;
+}
+.sixth-screen{
+    background-color: #FDF1E7;
+}
+.seventh-screen{
+    background-color:#62676A ;
+}
+.eight-screen{
+    background-color: #F9DCE1;
+}
+
+/* COLORS */
+
+.rhino{
+    color: #2C365E;
+}
+.wisteria{
+    background-color: #9F5BB0;
+}
+.spindle{
+    color: #ADD2EB;
+}
+.pumpkin-skin{
+    background-color: #B6590D;
+}
+.shark{
+    color:#1D1F20 ;
+}
+.jelly-bean{
+    background-color: #276D9B;
+}
+.east-bay{
+    color:#404E88 ;
+}
+.white{
+    background-color: white;
+}
+.everglade{
+    color:#1C422B ;
+}
+.boston-blue{
+    background-color: #35A0B1;
+}
+.nevada{
+    color:#62676A;
+}
+.maroon-flush{
+    background-color:#BF223C ;
+}
+.iceberg{
+    color: #D0EDF1;
+}
+.seventh-screen .everglade{
+    background-color: #1C422B;
+}
+.mexican-red{
+    color:#A01C32 ;
+}
+.de-york{
+    background-color:#79C698 ;
+}
+
+/*FONTS*/
+.cabin{
+    font-family: cabin, sans-serif;
+}
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
+.cinzel-decorative{
+    font-family: 'Cinzel Decorative', cursive;
+}
+.fauna-one{
+    font-family: 'Fauna One', serif;
+}
+.avro{
+    font-family: 'Arvo', serif;
+}
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.oxygen{
+    font-family: 'Oxygen', sans-serif;
+}
+.noto{
+    font-family: 'Noto Serif', serif;
+}
+.pt-sans{
+    font-family: 'PT Sans', sans-serif;
+}
+.playfair{
+    font-family: 'Playfair Display', serif;
+}
+.cormorant{
+    font-family: 'Cormorant Garamond', serif;
+}
+.fira-sans{
+    font-family: 'Fira Sans', sans-serif;
+}
+.abril-fatface{
+    font-family: 'Abril Fatface', cursive;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* COLORS FOR COLOR BLOCKS*/
+#cello{
+    background-color:#1D5962 ;
+}
+#manhattan{
+    background-color:#F8C296 ;
+}
+#celtic{
+    background-color: #0F2417;
+}
+#viking{
+    background-color:#7CB7DE ;
+}
+#de-york{
+    background-color:#79C698 ;
+}
+#rusty-nail{
+    background-color:#813F09  ;
+}
+#carousel-pink{
+    background-color:#FCF0F2 ;
+}
+#abbey{
+    background-color:#4E5255 ;
+}
+#affair{
+    background-color:#753F83 ;
+}
+#black{
+    background-color:#000000 ;
+}
+#prelude{
+    background-color:#DBC1E1 ;
+}
+#plantation{
+    background-color:#285D3D ;
+}
+#jelly-bean{
+    background-color:#2C7CB0 ;
+}
+#dark-ebony{
+    background-color:#341A04 ;
+}
+#christine{
+    background-color:#E06D10 ;
+}
+#amazon{
+    background-color:#398557 ;
+}
+#firefly{
+    background-color:#0C2231 ;
+}
+#sandy-brown{
+    background-color:#F4A15D ;
+}
+#cape-cod{
+    background-color:#36393A ;
+}
+#moccaccino{
+    background-color:#711423 ;
+}
+#regent-st-blue{
+    background-color:#A5DCE4 ;
+}
+#rhino{
+    background-color:#2C365E ;
+}
+#san-marino{
+    background-color:#5062AA ;
+}
+#dairy-cream{
+    background-color:#FBDBC1 ;
+}
+#mirage{
+    background-color:#181E34 ;
+}
+#everglade{
+    background-color:#1C422B ;
+}
+#blue-violet{
+    background-color:#6373B6 ;
+}
+#rusty-nail{
+    background-color:#813F09 ;
+}
+#mandys-pink{
+    background-color:#F3BAC3 ;
+}
+#plantation{
+    background-color:#285D3D ;
+}
+
+/*FULL VIEW.JS LIBRARY JUST NOT TO ATTACH THE NEXT CSS FILE*/
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#fv-dots {
+    position: fixed;
+    top: 50%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+}
+#fv-dots ul {
+    display: block;
+    list-style: none;
+}
+#fv-dots ul li {
+    padding: 10px;
+}
+#fv-dots ul li a {
+    display: block;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+}
+#fv-dots ul li a span {
+    display: block;
+    z-index: 1;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #888888;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 7px;
+    height: 7px;
+    transition: 0.1s ease all;
+}
+#fv-dots ul a.active span {
+    width: 9px;
+    height: 9px;
+    background-color: #bdbdbd;
+}
+#fv-dots ul a:hover span {
+    width: 9px;
+    height: 9px;
+}
+.fv-tooltip {
+    position: relative;
+    transition: all .65s cubic-bezier(.84, -0.18, .31, 1.26);
+}
+.fv-tooltip .fv-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background: #3E474F;
+    border-radius: .25em;
+    color: #EDEFF0;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: 105%;
+}
+.fv-tooltip:hover .fv-tooltiptext {
+    visibility: visible;
+}
+.fv-tooltip .fv-tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #3E474F;
+}
+.fv-tooltip.fv-tooltip-left .fv-tooltiptext::after {
+    left: unset;
+    right: 100%;
+    border-color: transparent #3E474F transparent transparent;
+}
